@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>YouTube Like App</title>
+</head>
+<body>
+    <h1>YouTube Like App</h1>
+    <nav>
+        <a href="{{ url_for('index') }}">Home</a> |
+        <a href="{{ url_for('add_channel') }}">Aggiungi Canale</a>
+    </nav>
+    <hr>
+    {% block content %}{% endblock %}
+</body>
+</html>

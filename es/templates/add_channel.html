@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h2>Aggiungi Canale</h2>
+<form method="post">
+    Nome: <input type="text" name="nome" required><br>
+    Numero Iscritti: <input type="number" name="numero_iscritti"><br>
+    Categoria: <input type="text" name="categoria" required><br>
+    <input type="submit" value="Aggiungi">
+</form>
+{% endblock %}
